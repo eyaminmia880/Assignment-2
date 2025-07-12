@@ -314,48 +314,194 @@ nav{
 }
 
 /* footer styles */
-.footer{
-    background-color: rgba(255, 255, 255, 0.1);
-     
-}
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1060px;
-    padding: 60px 40px 240px 150px;
-    gap: 140px;
-    
-}
-footer hr{
-    color: #FFFFFF;
-    opacity: 10%;
-    max-width: 1060px;
-    margin-top: -150px;
-   
-}
-footer li{
-    list-style: none;
 
-}
-.footer-column-1{
-    gap: 100px;
+.footer {
+  background: #1a1a1a;
+  padding: 40px 20px 20px;
+  color: #ccc;
 }
 
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-.footer-column-1 h1{
-    font-weight: bold;
-    font-size: 4rem;
-    color: #E6533C;
-    margin-bottom: 20px;
+.footer-brand {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
 }
-.footer-column-1 p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.875rem;
+
+.footer-brand h2 {
+  font-size: 32px;
+  font-style: italic;
+  color: #ff4d36;
+  margin-bottom: 15px;
 }
-.footer-copy{
+
+.footer-brand p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 500px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link-column {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.link-column h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.link-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link-column ul li {
+  margin-bottom: 10px;
+}
+
+.link-column ul li a {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s;
+}
+
+/* .link-column ul li a:hover {
+  color: #fff;
+} */
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Media query */
+@media (max-width: 576px) {
+  header {
+    flex-direction: column;
+    padding: 30px 20px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.25rem;
-   margin-top: 10px;
+  }
+
+  nav {
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 2.2rem;
+  }
+
+  .left h1 span {
+    font-size: 1.8rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .right {
+    margin-right: 0;
+    margin-top: 30px;
+  }
+
+  .badge.top,
+  .badge.bottom {
+    position: static;
+    margin: 10px auto;
+  }
+
+  .habit-banner h2 {
+    font-size: 2rem;
+  }
+
+  .habit-banner {
+    margin: 0 20px;
+  }
+
+  .habit-image {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .theme {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .theme-image img {
+    max-width: 100%;
+  }
+
+  .traning-image,
+  .team-image {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .traning-title,
+  .team-title {
+    font-size: 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .link-column {
+    min-width: 100%;
+  }
+
+  .footer-brand h2 {
+    font-size: 24px;
+  }
+
+  .footer-brand p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
 }
