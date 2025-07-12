@@ -97,6 +97,7 @@ nav{
 
     .right {
       position: relative;
+      margin-right: 100px;
     }
 
     .right img {
@@ -126,3 +127,52 @@ nav{
       left: -60px;
       background: rgba(48, 48, 48, 0.54);
     }
+
+.habit{
+    margin-top: 100px;
+    max-width: 1040px;
+    align-items: center;
+    
+}
+.habit-banner{
+    text-align: center;
+    margin: 0 190px;
+}
+.habit-banner h2{
+    font-size: 4rem;
+    font-weight: 900px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 14px;
+}
+.habit-banner p{
+    font-weight: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 60px;
+}
+.card{
+    max-width: 230px;
+    
+}
+.habit-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img{
+    border-radius: 50%;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.card h3{
+    font-weight: 600px;
+    font-size: 1.125rem;
+    text-align: center;
+}
+.card p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
