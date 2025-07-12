@@ -176,3 +176,45 @@ nav{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
+
+.theme{
+    display: flex;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    max-width: 1040px;
+    margin-top: 100px;
+    gap: 160px;
+    padding: 20px 30px;
+   
+}
+.theme-container h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.theme-container p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 24px;
+    text-align: center;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.btn-join{
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    padding: 10px 40px;
+}
+
+.theme-image img{
+    max-width: 350px;
+    border-radius: 18px;
+    padding: ;
+    
+}
+
