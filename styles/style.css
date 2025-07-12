@@ -261,6 +261,71 @@ nav{
     padding: 8px 10px;
     border-radius: 5px;
 }
+.bmi-section{
+    background-color: rgba(34, 34, 34, 1);
+    padding: 60px 20px;
+    color: #FFFFFF;
+}
+.bmi-container{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.bmi-chart,.bmi-form{
+    flex: 1 1 400px;
+}
+.bmi-chart,.bmi-form{
+    color:rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+.bmi-chart table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ccc;
+}
+.bmi-chart th,.bmi-chart td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: left;
+}
+.bmi-form p{
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+form{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.input-row,
+.input-row select,
+.full-width{
+    flex: 1;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+    padding: 13px;
+}
+
+/* .full-width {
+  width: 100%;
+} */
+.calc-btn {
+  background-color: #e6533c;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
 .teams{
     max-width: 1060px;
@@ -504,4 +569,18 @@ hr {
   .footer-bottom {
     font-size: 12px;
   }
+  .bmi-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  .calc-btn {
+    width: 100%;
+  }
 }
+
+
